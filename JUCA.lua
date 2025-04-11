@@ -599,7 +599,7 @@ end, function()
     imgui.SetCursorPosX((imgui.GetWindowWidth() - imgui.CalcTextSize("JUCA MENU 1.0").x) / 2)
     imgui.TextColored(imgui.ImVec4(1.0, 1.0, 1.0, 1.0), "JUCA MENU")
     imgui.SameLine()
-    imgui.TextColored(imgui.ImVec4(1.0, 0.2, 0.2, 1.0), " 2.0")
+    imgui.TextColored(imgui.ImVec4(1.0, 0.2, 0.2, 1.0), " 3.0")
 
     local drawList = imgui.GetWindowDrawList()
     local borderColor = imgui.ColorConvertFloat4ToU32(imgui.ImVec4(math.sin(os.clock()), math.cos(os.clock()), 1.0, 1.0))
